@@ -18,7 +18,7 @@ def main(i):
         l = input("What is your product description?\n")
         d.add_barcode(barcode_id=b, product_name=p, product_description=l)
         print("Barcode added!")
-        ImageGenerator.create_image(b)
+        ImageGenerator.create_image(b, p)
         print("Image created!")
         return
 

@@ -1,5 +1,5 @@
 {
     "db": {
-        "name": "db.sql3"
+        "name": "./db.sql3"
     }
 }

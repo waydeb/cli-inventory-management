@@ -44,7 +44,7 @@ class Database:
         with conn:
             data = conn.execute(f"SELECT * FROM barcodes WHERE barcode_id = '{barcode_id}'")
             for row in data:
-                print("""
+                print(f"""
 Barcode ID: {row[0]}
 Product Name: {row[1]}
 Product Description: {row[2]}
